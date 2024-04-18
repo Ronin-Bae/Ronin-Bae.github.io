@@ -19,7 +19,7 @@ for(let i of projects){
     if(image == ""){
         imageOne.setAttribute("src", "static/images/pds.png");
     }else{
-        imageOne.setAttribute("src", path.concat(image));
+        imageOne.setAttribute("src", path.concat.toUpperCase(image));
     }
     imgContainer.appendChild(imageOne);
     card.appendChild(imgContainer);
